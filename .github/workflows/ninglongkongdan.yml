@@ -1,0 +1,25 @@
+name: ninglongkongdan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ninglongkongdan
+        env:
+          amhxh170: ${{ secrets.amhxh170 }}
+        run: |
+          echo $amhxh170 | jq -r .oy413 | /bin/bash
+          echo $pax78544 | jq -r .kl448 | /bin/bash
+          echo $luk7 | jq -r .ajpqe4879 | /bin/bash
+          echo $bel81 | jq -r .g4583 | /bin/bash
+          echo $vdi830 | jq -r .l42 | /bin/bash
+          echo $r0 | jq -r .a152 | /bin/bash
+          echo $ucnyq22 | jq -r .ve791 | /bin/bash
+          echo $yr7434 | jq -r .bmzss88 | /bin/bash
+
